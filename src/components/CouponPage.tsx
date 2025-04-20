@@ -1,6 +1,6 @@
-
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import ScratchCard from './ScratchCard';
+import Footer from './Footer';
 
 const generateCouponCode = () => {
   const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
@@ -18,9 +18,9 @@ const CouponPage = () => {
   return (
     <div className="min-h-screen bg-[#EFE4E4] flex flex-col items-center px-4 py-8">
       <img
-        src="/placeholder.svg"
+        src="/lovable-uploads/9bd0c7ce-be68-44e4-a743-4af22ab47d28.png"
         alt="Niswa Couture Logo"
-        className="w-40 mb-8"
+        className="w-48 mb-8"
         aria-label="Niswa Couture company logo"
       />
       
@@ -37,27 +37,19 @@ const CouponPage = () => {
       <div className={`mt-8 text-center transition-opacity duration-500 ${
         isRevealed ? 'opacity-100' : 'opacity-0'
       }`}>
-        <p className="text-[#2C3E57] mb-4">
-          Thank you for choosing Niswa Couture. Redeem this code at your next purchase for a 10% discount.
+        <p className="text-[#2C3E57] mb-6 max-w-md">
+          Thank you for choosing Niswa Couture. Your support means the world to us. To redeem your 10% discount, simply share a photo of this coupon card during checkout along with your unique code.
         </p>
         
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-[#9C8B58] hover:underline"
-          aria-label="Follow us on Instagram"
-        >
-          Follow us on Instagram
-        </a>
+        <img
+          src="/lovable-uploads/9bd0c7ce-be68-44e4-a743-4af22ab47d28.png"
+          alt="Niswa Couture Logo"
+          className="w-32 mx-auto mb-8"
+          aria-label="Niswa Couture company logo"
+        />
       </div>
 
-      <img
-        src="/placeholder.svg"
-        alt="Niswa Couture Logo"
-        className="w-32 mt-12"
-        aria-label="Niswa Couture company logo"
-      />
+      <Footer />
     </div>
   );
 };
