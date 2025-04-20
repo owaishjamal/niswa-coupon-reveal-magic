@@ -25,7 +25,7 @@ const CouponPage = () => {
         aria-label="Niswa Couture company logo"
       />
       
-      <h1 className="text-[#9C8B58] text-4xl font-bold mb-4 text-center">
+      <h1 className="font-['Great_Vibes'] text-[#9C8B58] text-5xl mb-4 text-center">
         Congratulations!
       </h1>
       
