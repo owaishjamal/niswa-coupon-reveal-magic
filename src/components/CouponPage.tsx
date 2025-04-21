@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import ScratchCard from './ScratchCard';
 import Footer from './Footer';
@@ -25,7 +24,7 @@ const CouponPage = () => {
         aria-label="Niswa Couture company logo"
       />
       
-      <h1 className="font-['Great_Vibes'] text-[#9C8B58] text-5xl mb-4 text-center">
+      <h1 className="text-[#9C8B58] text-4xl font-bold mb-4 animate-scale-in text-center">
         Congratulations!
       </h1>
       
@@ -38,7 +37,7 @@ const CouponPage = () => {
       <div className={`mt-8 text-center transition-opacity duration-500 ${
         isRevealed ? 'opacity-100' : 'opacity-0'
       }`}>
-        <div className="font-['Great_Vibes'] text-[#9C8B58] text-3xl mb-4">
+        <div className="font-['Great_Vibes'] text-[#9C8B58] text-3xl mb-4 italic">
           With love, Team Niswa Couture
         </div>
 
