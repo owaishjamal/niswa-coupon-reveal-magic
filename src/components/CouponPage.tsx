@@ -37,10 +37,6 @@ const CouponPage = () => {
       <div className={`mt-8 text-center transition-opacity duration-500 ${
         isRevealed ? 'opacity-100' : 'opacity-0'
       }`}>
-        <div className="font-['Great_Vibes'] text-[#9C8B58] text-3xl mb-4 italic">
-          With love, Team Niswa Couture
-        </div>
-
         <p className="text-[#2C3E57] mb-6 max-w-md">
           Thank you for choosing Niswa Couture. Your support means the world to us. To redeem your 10% discount, simply share a photo of this coupon card during checkout along with your unique code.
         </p>
