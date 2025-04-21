@@ -46,9 +46,9 @@
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.3.0",
     "input-otp": "^1.2.4",
-    "lucide-react": "^0.462.0",
+    "lucide-react": "^0.503.0",
     "next-themes": "^0.3.0",
-    "react": "^18.3.1",
+    "react": "^19.1.0",
     "react-canvas-draw": "file:1.2.1@types/react-canvas-draw@1.2.3html2canvas@1.4.1",
     "react-day-picker": "^8.10.1",
     "react-dom": "^18.3.1",
@@ -79,6 +79,6 @@
     "tailwindcss": "^3.4.11",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
+    "vite": "^6.3.2"
   }
 }
