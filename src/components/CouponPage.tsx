@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import ScratchCard from './ScratchCard';
 import Footer from './Footer';

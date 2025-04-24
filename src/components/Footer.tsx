@@ -1,4 +1,5 @@
 
+import React from 'react';
 import { Instagram, Mail } from "lucide-react";
 
 const Footer = () => {
